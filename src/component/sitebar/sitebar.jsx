@@ -9,6 +9,7 @@ const Sitebar = () => {
                 <li><NavLink to="/home" activeClassName={s.active}>Главная</NavLink></li>
                 <li><NavLink to="/content" activeClassName={s.active} >Ярлыки</NavLink></li>
                 <li><NavLink to="/Instruction" activeClassName={s.active} >Инструкции</NavLink></li>
+                <li><NavLink to="/dialogs" activeClassName={s.active} >Диалоги</NavLink></li>
             </ul>
         </div>
     )
