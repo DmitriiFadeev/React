@@ -1,0 +1,42 @@
+.instruction{
+ display: flex;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid black;
+    width: 200px;
+}
+
+.item {
+    margin-top: 15px;
+}
+.description{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.content{
+
+}
+.content .block{
+
+}
+.content .block .text{
+
+}
+.content .block .image{
+    display: flex;
+    justify-content: center;
+}
+.content .block .image img{
+    width: 150px;
+    height: 150px;
+}

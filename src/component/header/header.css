@@ -1,0 +1,10 @@
+.app_header{
+    grid-area: header;
+    background-color: aqua;
+    height: 70px;
+  }
+  .logo img{
+    width: 70px;
+    height: 60px;
+    padding: 5px;
+  }
