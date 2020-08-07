@@ -58,7 +58,7 @@ const Instruction = (props) => {
                             Пункт 1
                         </div>
                         <div className={s.image}>
-
+                            123
                         </div>
                     </div>
                 </div>
