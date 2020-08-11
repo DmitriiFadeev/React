@@ -8,6 +8,7 @@ import Instruction from './component/Instruction/Instruction';
 import Sitebar from './component/sitebar/sitebar';
 
 const App = (props) => {
+  
   return (
     <BrowserRouter>
     <div className="app_wrapper">
@@ -16,7 +17,7 @@ const App = (props) => {
       <div className="app-wrapper-container">
           <Route path ='/Instruction' render={ () => <Instruction />} />
           <Route path ='/Content' render={ () => <Content />} />
-          <Route path ='/dialogs' render={ () => <Dialogs /> } />
+          <Route path ='/dialogs' render={ () => <Dialogs Dialogs={props.state.Dialogs} Messages={props.state.Messages}/> } />
       </div>
     </div>
     </BrowserRouter>
