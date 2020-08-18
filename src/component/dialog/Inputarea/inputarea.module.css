@@ -1,0 +1,12 @@
+.inputblock{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.inputarea textarea{
+    width: 100%;
+    resize: none;
+}
+.inputbtn button{
+  float: right;
+}

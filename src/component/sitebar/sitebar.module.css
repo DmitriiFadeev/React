@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 .Sitebar{
     grid-area: sitebar;
-    background-color: blue;
+    background-color: #623B2A;
     height: 100vh;
+}
+.Sitebar .nav{
+  padding-left: 20px;
 }
 li{
   list-style: none;
 }
-a{
+.nav a{
   color:  #fff;
   text-decoration: none;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 .nav .active{
   color: red;
